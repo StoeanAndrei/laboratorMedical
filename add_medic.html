@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MedicalLAB</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stil.css">
+<link rel="shortcut icon" type="image/png" href="hospital.png">
+</head>
+<body>
+
+<h1 style="text-align: center">Laborator Medical</h1>
+<h3 style="text-align: center">Adaugare medic</h3>
+
+<form action="add_medic.php" method="post">
+  <div class="imgcontainer">
+    <img src="prima.jpg" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <p class="paragraph">Pentru a putea adauga un medic la baza de date a laboratorului,
+      te rog sa completezi campurile de mai jos,
+      apoi apasa butonul corespunzator.</p>
+    <br>
+    <label for="nume"><b>Nume</b></label>
+    <input type="text" placeholder="Introduceti Nume" name="nume" required>
+
+    <label for="nume"><b>Prenume</b></label>
+    <input type="text" placeholder="Introduceti Prenume" name="prenume" required>
+
+    <label for="nume"><b>Parola</b></label>
+    <input type="text" placeholder="Introduceti Parola" name="parola" required>
+
+    <label for="nume"><b>Specializare</b></label>
+    <input type="text" placeholder="Introduceti Specializare" name="specializare" required>
+
+    <label for="nume"><b>Email</b></label>
+    <input type="text" placeholder="Introduceti Email" name="email" required>
+
+    <label for="nume"><b>Telefon</b></label>
+    <input type="text" placeholder="Introduceti Telefon" name="telefon" required>
+
+    <button type="submit">Adauga medicul</button>
+  </div>
+</form>
+
+</body>
+</html>
